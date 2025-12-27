@@ -1,0 +1,71 @@
+.img1
+{
+    background-image: url('Screenshot 2025-12-25 220130.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.id1 
+{
+    background:linear-gradient(60deg,rgb(13, 71, 198),white,gold);
+    padding: 5px;
+    width: 50%;
+    border: solid 3px black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    margin: auto;
+}
+
+.head 
+{
+    color: rgb(8, 6, 6);
+    font-weight: bold;
+    font-size: 60px;
+    width: 40%;
+    padding: 8px;
+}
+.quote 
+{
+    font-style: italic;
+    font-size: 25px;
+    color: rgb(60, 4, 47);
+}
+
+.info 
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(28, 6, 48);
+}
+
+.images 
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+img 
+{
+    width: 400px;
+    height:300px;
+    border-radius: 10px;
+    border: 2px solid;
+}
+.content{
+    text-align: center;
+    padding:10px;
+    margin:auto;
+}
+.footer {
+    position: fixed;      
+    bottom: 0;          
+    left: 0;
+    width: 100%;          
+    text-align: center;
+    padding: 3px;
+    font-size: 15px;
+    background-color: rgb(194, 195, 115);
+    border-top: 2px solid black;
+}

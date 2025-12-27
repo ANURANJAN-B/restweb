@@ -1,0 +1,67 @@
+.img1
+{
+    background-image: url('Screenshot 2025-12-25 220130.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.id1 
+{
+    background:linear-gradient(60deg,rgb(36, 28, 100),white,gold);
+    padding: 5px;
+    width: 50%;
+    border: solid 3px black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    margin: auto;
+}
+.head 
+{
+    color: rgb(122, 8, 8);
+    font-weight: bold;
+    font-size: 60px;
+    width: 40%;
+    padding: 8px;
+}
+.footer {
+    position: fixed;      
+    bottom: 0;          
+    left: 0;
+    width: 100%;          
+    text-align: center;
+    padding: 3px;
+    font-size: 15px;
+    background-color: rgb(182, 201, 95);
+    border-top: 2px solid black;
+}
+.row {
+    display: flex;             
+    justify-content: space-evenly;                
+    gap: 20px;                 
+    margin-top: 40px;
+}
+
+.admin {
+    text-align: center;
+    background-color: rgb(135, 165, 239);
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid orangered;
+    width: 200px;          
+}
+img {
+    width: 180px;
+    height: 250px;
+    border-radius: 10px;
+    border: 2px solid rgb(11, 11, 11);
+}
+.detail{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 10px;
+}
+.high{
+    color: orangered;
+}
